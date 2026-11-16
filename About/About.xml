@@ -10,12 +10,20 @@
   </supportedVersions>
   <packageId>Witek.MechsCanHaulToCharger</packageId>
   <description>
-	Allows Lifters to haul mechanoids to charger
+Allows Lifters to haul downed or shut-down mechanoids to a charger.
+
+Requires Biotech.
+
+https://github.com/witks/RimWorld-MechsCanHaulToCharger
   </description>
+  <modDependencies>
+    <li>
+      <packageId>Ludeon.RimWorld.Biotech</packageId>
+      <displayName>Biotech</displayName>
+    </li>
+  </modDependencies>
   <loadAfter>
     <li>Ludeon.RimWorld</li>
     <li>Ludeon.RimWorld.Biotech</li>
   </loadAfter>
 </ModMetaData>
-
-
